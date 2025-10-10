@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Online & Offline Marketing</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+<link rel="icon" href="img/excitaprint-favicon-2025-72x72-ico.ico">
+    <style>
+
+        @media screen and (max-width: 768px){
+        h1.hero-text {
+            font-size: 2em;
+            line-height: 1.05;
+            }
+        .hero, .section {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        }
+
+        html {
+            font-size: 16px;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+            --section-height: 105vh
+        }
+        
+        body {
+            
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            font-size: 1em;
+            font-family:"DM Serif Text", serif;
+            font-family: "JetBrains Mono", monospace;
+            font-optical-sizing: auto;
+            font-weight: 700;
+             font-style: normal;
+        }
+
+        .hero {
+
+            background-image: url('src/assets/030423-free-form-gradient-backgrounds-b.png');
+            width: 100vw;
+            height: 110vh;
+            background-size: cover;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(2, 1fr); 
+            /** grid-template-columns: [left] 3fr [right] 2fr; **/
+            margin: 0;
+            align-content: center;
+        }
+
+        .section {
+
+            background-color:rgba(241, 241, 241, 0.937);
+            width: 100vw;
+            height: 110vh;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(2, 1fr); 
+            /** grid-template-columns: [left] 3fr [right] 2fr; **/
+            margin: 0;
+            align-content: center;
+     
+        }
+
+        .section-b {
+            
+            background-color:rgb(68, 135, 198);
+            width: 100vw;
+            height: 110vh;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(2, 1fr); 
+            /** grid-template-columns: [left] 3fr [right] 2fr; **/
+            margin: 0;
+            align-content: center;
+     
+        }
+
+        .hero-text {
+
+            color: rgb(232, 232, 232); 
+            /** color: rgb(7, 84, 172); **/ 
+            font-weight: 800;
+            font-style: normal;
+            padding: 40px;
+            font-size: 4em;
+            line-height: 0.95;
+            text-align: left;
+            margin: 0;
+            overflow: visible; /** Prevents text from being cut off **/
+            
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="hero">
+        <h1 class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit labore et dolore <i style="font-weight:1000;">magna aliqua.</i></h1>
+    </div>
+    <!--<div><script> JS bezierCurveTo() Create squiggly from JC portfolio here as underscore on last line of ppg </script></div>-->
+    <div class="section">
+        <h1 class="hero-text"></h1>
+    </div>
+    <div class="section-b">
+        <h1 class="hero-text"></h1>
+    </div>
+        <div class="section">
+        <h1 class="hero-text"></h1>
+    </div>
+</body>
+</html>

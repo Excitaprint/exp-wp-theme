@@ -1,0 +1,16 @@
+# Git Ignore #
+############
+# Make sure this doesn't ignore any important files
+
+# Directories #
+############
+# This is a comment
+
+/sketches-ideas
+/img
+/docs
+
+# Files #
+
+*.mp4
+excitaprint-redesign-features-notes.txt

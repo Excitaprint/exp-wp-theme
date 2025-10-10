@@ -1,0 +1,13 @@
+Exp Website Steps Week of 6/9
+---
+
+JS for above the fold effect -- will it be smooth enough? 
+
+create 4 sections (divs -- will be custom blocks) will create header & footer later (will make 6 sections total), for index/home page
+
+proper grid syntax for row -- gotta be a shorter solution
+
+grid on click portfolio -- divide second section into bento w css masking, zoom onClick - carousel style
+
+figure out rest of blocks
+
