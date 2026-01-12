@@ -25,3 +25,5 @@
   > Button for calling on MOBILE ONLY - query size of screen
 - Need functions.php & header.php?
 - Finish building folder/file structure.
+- Keep syntax JS with JSX mixed in?
+  > Is that possible? Learn JSX but rapid development
