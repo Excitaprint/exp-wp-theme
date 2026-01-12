@@ -23,3 +23,5 @@
   > Simple, gradient, text region, stock img region
   > Button for emailing me
   > Button for calling on MOBILE ONLY - query size of screen
+- Need functions.php & header.php?
+- Finish building folder/file structure.
