@@ -27,3 +27,7 @@
 - Finish building folder/file structure.
 - Keep syntax JS with JSX mixed in?
   > Is that possible? Learn JSX but rapid development
+
+## 1/23/26
+
+- Go all JSX
