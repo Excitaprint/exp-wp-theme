@@ -1,0 +1,61 @@
+/* SERVICES PAGE REEL BLOCK CSS */
+.wp-block-services-reel {
+  display: grid;
+  position: relative;
+  min-height: 50vh;
+  height: auto;
+  width: 100vw;
+  grid-template-columns: repeat(6, 1fr);
+
+  /* grid-template-rows: repeat(12, 1fr); */
+  /* grid-template-rows: auto auto repeat(10, 1fr); */
+  grid-template-rows: 128px auto;
+  gap: 2px;
+  background-color: var(--bright-white);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 72px;
+}
+
+.services-reel-header {
+  display: flex;
+  flex-direction: column;
+  grid-column: 3 / 5;
+  grid-row: 1 / 2;
+  justify-items: center;
+  text-align: center;
+  /* align-items: center; */
+  /* ADD CENTERING HERE margin or flexbox */
+}
+
+.services-reel-header h1 {
+  font-size: clamp(2.15rem, 4vw, 2.25rem);
+  font-family: var(--font-a);
+  font-weight: 700;
+  padding-bottom: 16px;
+  padding-top: 48px;
+  color: var(--dark-blue);
+}
+
+.services_reel-card {
+  display: flex;
+  grid-column: span 1;
+  background: #e0e0e0;
+  border-radius: 24px;
+  /* width: 25vw; */
+  width: 22vw;
+  height: 30vh;
+}
+
+.services_reel-reel-wrapper {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: 0.5fr 9fr 0.5fr;
+  grid-column: 2 / 6;
+  grid-row: 3 / auto;
+  gap: 36px;
+  justify-items: center;
+}
+
+/* .services-reel-button {
+} */

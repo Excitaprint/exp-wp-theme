@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "theme/hero",
+  "title": "Hero",
+  "category": "layout",
+  "description": "Hero block.",
+  "keywords": ["marketing", "advertising", "branding"],
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  },
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/style-index.css",
+  "style": "file:./build/style-index.css",
+  "viewScript": "file:./build/view.js",
+  "render": "file:./src/render.php"
+}

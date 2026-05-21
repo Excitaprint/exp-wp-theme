@@ -1,0 +1,125 @@
+/* BADGES BLOCK CSS */
+.wp-block-badges {
+  /*visibility: hidden;*/
+  display: grid;
+  height: 35vh;
+  width: 100vw;
+  background-color: var(--bright-white);
+  padding-bottom: 24px;
+}
+
+.wp-block-badges-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1.5fr;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.badges-header-wrapper {
+  display: flex;
+  justify-self: flex-start;
+  align-self: center;
+  grid-column: 1;
+  grid-row: 1;
+  font-size: clamp(1.05rem, 4vw, 1.25rem);
+  font-family: var(--font-a);
+  color: var(--font-smoke);
+  font-weight: 600;
+  word-spacing: -1.875px;
+  line-height: 1.3;
+  letter-spacing: 1.255px;
+  align-items: center;
+}
+
+.badges-wrapper {
+  display: flex;
+  grid-column: 1;
+  grid-row: 2;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badges-wrapper img {
+  height: auto;
+  width: 100px;
+  cursor: pointer;
+}
+
+.bbb-wrapper img {
+  display: flex;
+  height: 125px;
+  transform: translateY(-7px);
+}
+
+.tack-wrapper img {
+  display: flex;
+  height: auto;
+  width: 290px;
+}
+
+.google-wrapper img {
+  display: flex;
+  height: auto;
+  width: 85px;
+}
+
+.amazon-wrapper img {
+  display: flex;
+  height: auto;
+  transform: translateY(14px);
+  width: 96px;
+}
+
+.angi-wrapper img {
+  display: flex;
+  height: auto;
+  width: 160px;
+}
+
+/* RESPONSIVE MEDIA QUERIES */
+/* MOBILE */
+
+@media (max-width: 430px) {
+  /* BADGES BLOCK CSS */
+  .wp-block-badges {
+    height: auto;
+    width: 100vw;
+    padding-bottom: 108px;
+    margin-top: -124px;
+    padding-top: 216px;
+  }
+
+  .wp-block-badges-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  .badges-header-wrapper {
+    font-size: clamp(1.05rem, 4vw, 1.25rem);
+    font-weight: 600;
+    word-spacing: -1.875px;
+    line-height: 1.3;
+    letter-spacing: 1.255px;
+    padding-bottom: 116px;
+
+  }
+
+  .badges-wrapper {
+    gap: 64px;
+    flex-direction: column;
+    align-items: center;
+      justify-content: flex-start;
+  }
+
+  .amazon-wrapper img {
+  display: flex;
+  height: auto;
+  transform: translateY(14px);
+  width: 224px;
+}
+}

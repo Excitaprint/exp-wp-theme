@@ -1,0 +1,74 @@
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./blocks/services-map/src/style.css ***!
+  \***************************************************************************************************************************************************************************************/
+/* SERVICES PAGE MAP BLOCK CSS */
+.wp-block-services-map {
+  display: grid;
+  position: relative;
+  /* overflow: visible; */
+  height: 50vh;
+  width: 100vw;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  /* gap: 12px; */
+  overflow: hidden;
+  background-color: var(--bright-white);
+}
+.services-map-wrapper {
+  display: grid;
+  position: absolute;
+  /* overflow-x: hidden !important; */
+  grid-column: 1 / 13;
+  grid-row: 1 / 13;
+  width: 100%;
+  height: 100%;
+}
+.services-map-iframe {
+  position: absolute;
+  overflow: hidden;
+  /* Positions the iframe relative to the container */
+  /* top: -160px;
+  left: -475px; */
+  top: -100px;
+  left: -340px;
+  /* width: 135%;
+  height: 135%; */
+  width: 135%;
+  height: 135%;
+  z-index: 0;
+  /* Puts the iframe in the background */
+  pointer-events: none !important;
+}
+@media (max-width: 430px) {
+  .services-map-iframe {
+    position: absolute;
+    /* Positions the iframe relative to the container */
+    top: -68px;
+    left: -65px;
+    width: 129%;
+    height: 129%;
+    z-index: 0;
+    /* Puts the iframe in the background */
+    }
+
+    /* Original Home Map Mobile Props 
+    position: absolute;
+    top: -110px;
+    left: -50px;
+    width: 122%;
+    height: 122%;
+    z-index: 0;
+    */
+
+    /* Original Home Map Mobile Hack at END 
+    ** Use this or no?
+
+   .map-iframe {
+    top: -110px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 122%;
+    height: 122%;
+  }
+  */
+}

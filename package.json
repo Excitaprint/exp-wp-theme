@@ -1,0 +1,16 @@
+{
+  "name": "crmorton-wp-theme",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "SET NODE_OPTIONS=--max-old-space-size=16248 && wp-scripts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^31.4.0",
+    "browser-sync": "^2.x.x",
+    "browser-sync-webpack-plugin": "^2.x.x"
+  }
+}

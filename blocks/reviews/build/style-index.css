@@ -1,0 +1,291 @@
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./blocks/reviews/src/style.css ***!
+  \**********************************************************************************************************************************************************************************/
+/* REVIEWS BLOCK CSS */
+.wp-block-reviews {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  overflow: visible;
+  height: 60vh;
+  width: 100%;
+  gap: 2px;
+  z-index: 4;
+
+  /* CSS TO MAKE MAP APPEAR UNDER IT, ROUND CORNERS*/
+}
+/* THIS IS BACKGROUND FOR DIV ::before */
+/* FILTERS HERE TO NOT INTERFERE WITH SQUIGGLES COLOR */
+.wp-block-reviews::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 72px 72px,
+      #376eb6 0%,
+      #b9dcf4 calc(100% - 64px));
+  filter: brightness(115%);
+  filter: saturate(-390%);
+  gap: 2px;
+  z-index: 0;
+  border-radius: 0 0 88px 88px;
+  /* margin-bottom: 70px; */
+}
+.squiggles {
+  /* width: 100%;
+  height: 100%; */
+  grid-column: 1 / 25;
+  grid-row: 1 / 3;
+  height: auto;
+  /* background-color: var(--smoke); */
+  background-color: var(--white-a);
+
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-position: top left;
+  mask-position: top left;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  /* NEW CSS TO SLIDE UNDER, GET RID OF TINY LINE BETWEEN*/
+  position: relative;
+  padding-top: 4px;
+  margin-top: -4px;
+}
+.reviews-mast-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  grid-column: 4 / 9;
+  grid-row: 4 / 8;
+  font-family: var(--font-a);
+  color: var(--bright-white);
+  font-weight: 700;
+  z-index: 4;
+}
+.reviews-header-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+}
+.reviews-header-wrapper h2 {
+  font-size: clamp(2.25rem, 5vw, 2.55rem);
+  word-spacing: -1.675px;
+  line-height: 1.01;
+  letter-spacing: 0.35px;
+}
+.reviews-header-wrapper h3 {
+  font-size: clamp(1.555rem, 5vw, 1.999rem);
+  line-height: 1.01;
+  font-weight: 500;
+  padding-top: 6px;
+  padding-bottom: 8px;
+}
+.forum-icon {
+  font-variation-settings:
+    "FILL" 1,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
+  font-size: 2rem !important;
+  line-height: 0;
+  padding-left: 6px;
+  padding-right: 1px;
+}
+.reviews-mast__button {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--bright-white);
+  border-radius: 24px;
+  padding: 8px 10px;
+
+  font-family: var(--font-b);
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  text-align: center;
+  cursor: pointer;
+  transition: all 215ms ease-in-out;
+}
+.reviews-mast__button:hover {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--dark-blue);
+}
+.reviews-card-wrapper {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 48px;
+  grid-column: 10 / 22;
+  grid-row: 4 / 11;
+}
+.reviews-card-1,
+.reviews-card-2,
+.reviews-card-3 {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 100%;
+  /* fill grid column */
+  border-radius: 24px;
+  border: 1px solid var(--dark-blue);
+  background: var(--bright-white);
+  padding: 16px;
+  min-width: 0;
+  /* allow shrinking inside track */
+  box-sizing: border-box;
+}
+.reviews-card-1 {
+  grid-column: 1;
+}
+.reviews-card-2 {
+  grid-column: 2;
+}
+.reviews-card-3 {
+  grid-column: 3;
+}
+.reviews-footer h3 {
+  font-family: var(--font-a);
+  color: var(--smoke);
+  display: flex;
+  font-size: clamp(1.05rem, 5vw, 1.01rem);
+  word-spacing: -1.675px;
+  line-height: 1.01;
+  letter-spacing: 0.35px;
+  font-weight: 600;
+}
+.reviews h2 {
+  font-family: var(--font-b);
+  color: var(--smoke);
+  display: flex;
+  font-size: clamp(0.955rem, 5vw, 0.999rem);
+  line-height: 1.65;
+  font-weight: 400;
+  word-spacing: -1.875px;
+  letter-spacing: 0.675px;
+
+  padding-top: 12px;
+}
+/* MORE-TYPE-CONTROL? {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  justify-self: center;
+  justify-items: center;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 12px;
+} */
+.reviews-stars {
+  display: flex;
+  flex-direction: row;
+  /*align-items: bottom;*/
+  color: #fbbc04;
+  font-variation-settings:
+    "FILL" 1,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
+  font-size: 1rem !important;
+  line-height: 1;
+  padding: 6px 0 0;
+  /* Adjust  for mobile? Added width to grids, took out padding! */
+  vertical-align: middle;
+  gap: 6px;
+  /*alignment-baseline: baseline;*/
+}
+.reviews-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-self: center;
+}
+.reviews-avatar img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: scale(1.2) translate(1px, 2px);
+  /* default */
+  display: block;
+}
+.reviews-avatar-img--2 {
+  transform: scale(1.5) translate(8px, 2px) !important;
+}
+.reviews-avatar-img--3 {
+  transform: scale(1.5) translate(-8px, 2px) !important;
+}
+.reviews {
+  display: flex;
+}
+.reviews-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+/* RESPONSIVE MEDIA QUERIES */
+/* MOBILE */
+@media (max-width: 430px) {
+  .wp-block-reviews {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: auto;
+    overflow: visible;
+    height: auto;
+    width: 100%;
+    gap: 2px;
+    z-index: 4;
+  }
+
+  /* CSS TO MAKE MAP APPEAR UNDER IT, ROUND CORNERS*/
+  .wp-block-reviews::before {
+    border-radius: 0 0 48px 48px;
+  }
+
+  .reviews-mast-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    grid-column: 3 / 24;
+    grid-row: 1 / 3;
+    z-index: 4;
+    height: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 86px;
+  }
+
+  .reviews-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    z-index: 1;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px;
+    grid-column: 3 / 22;
+    grid-row: 3 / 10;
+    padding-top: 32px;
+    padding-bottom: 64px;
+  }
+
+  .reviews-footer {
+    padding-top: 12px;
+    align-items: center;
+  }
+
+  .reviews-header-wrapper h3 {
+  line-height: 1.21;
+  }
+}

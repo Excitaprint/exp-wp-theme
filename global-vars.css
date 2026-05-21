@@ -1,0 +1,58 @@
+/* The 'global-vars.css' file holds the design systems,
+variables like fonts, colors, etc.
+It only contains abstract values,
+doesn't contain layout/block UI CSS
+
+global-vars.css must be registered */
+
+:root {
+  /* AVAILABLE COLORS/SITE PALLETTE */
+  --smoke: #353535;
+  --black: #151515;
+  --white-a: #e9f1f8;
+  --white-b: #eaf1f8;
+  --white-b-glass: rgba(234, 241, 248, 0.25);
+  --bright-white: #f8f8f8;
+  --brightest-white:#fafafa;
+  --dim-white: #f4f4f4;
+  --dark-blue: #376eb6;
+  --light-blue: #b9dcf4;
+  --accent-a: #f43c1e;
+
+  /* -- SEMANTIC COLORS -- */
+
+  --font-smoke: #353535;
+  --font-black: #151515;
+  --bg-a: #e9f1f8;
+  --bg-b: #eaf1f8;
+
+  /*-- FONTS -- name scheme right for this? */
+
+  --font-a: "Poppins", sans-serif;
+  --font-b: "Open Sans", sans-serif;
+  --indent: 25px;
+
+  /* -- RESPONSIVE TYPOGRAPHY (CSS CLAMP) --
+
+    clamp(MIN SIZE, %vw, MAX SIZE)
+
+    Use rem to shrink and grow dynamically
+    1rem = 16px 40px 2.5rem, 64px 4rem
+    Xvw is how big or small it grows.
+    Looks good on desktop, help
+
+    */
+
+  --h1: clamp(2.75rem, 5vw, 4.5rem);
+  --h2: clamp(1.55rem, 4vw, 1.85rem);
+  --h3: clamp(1.45rem, 4vw, 1.75rem);
+  --h1-services: clamp(2.44rem, 5vw, 3.47rem);
+  --h2-services: clamp(1.55rem, 4vw, 1.85rem);
+  --p: clamp(1.45rem, 4vw, 1.875rem); /* About 16.75px? */
+  --p-2: 1.25rem; /* MAKE THIS A CLAMP */
+  --p-3: clamp(0.95rem, 5vw, 0.975rem);
+
+  /* -- LAYOUT CONSTRAINTS -- */
+
+  /* --section-height: 90vh; */
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "theme/map",
+  "title": "Coupon",
+  "category": "layout",
+  "description": "Map block.",
+  "keywords": ["google", "map", "areas", "location"],
+  "attributes": {
+    "title": {
+      "type": "string",
+      "source": "html",
+      "selector": ""
+    }
+  },
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/style-index.css",
+  "style": "file:./build/style-index.css",
+  "viewScript": "file:./build/view.js",
+  "render": "file:./src/render.php"
+}
