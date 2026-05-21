@@ -25,4 +25,5 @@
   > Smaller menu text, diff secondary text
   > Swap Global Vars for EXP colors
                               
-  
+- Add: setup Git remote pushing
+- Change: remove Google rating in Hero - done

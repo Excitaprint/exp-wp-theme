@@ -137,7 +137,7 @@ button {
   grid-template-columns: auto minmax(0, 1fr) auto; /* Logo | Flexible space | Nav+CTA */
   grid-template-rows: 1fr;
 
-  width: min(55vw, 75%);
+  width: min(65vw, 75%);
   height: 100%;
   margin: 0 auto;
   gap: 12px;
@@ -159,7 +159,7 @@ button {
   grid-row: 1;
   align-self: center;
   justify-self: center;
-  width: clamp(100px, 14vw, 150px);
+  width: clamp(125px, 14vw, 200px);
   height: auto;
   cursor: pointer;
 }
