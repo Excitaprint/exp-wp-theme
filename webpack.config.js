@@ -48,9 +48,9 @@ module.exports = {
   plugins: [
     ...defaultConfig.plugins,
     new BrowserSyncPlugin({
-      proxy: "http://localhost:10004", // LocalWP
+      proxy: "http://localhost:10010", // LocalWP
       host: "localhost",
-      port: 3001,
+      port: 3003,
       files: [
         "./blocks/*/build/*.css",
         "./blocks/*/build/*.js",

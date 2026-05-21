@@ -15,7 +15,7 @@
   \**********************************/
 () {
 
-eval("{\n\n//# sourceURL=webpack://crmorton-wp-theme/./blocks/about/src/view.js?\n}");
+eval("{\n\n//# sourceURL=webpack://exp-wp-theme/./blocks/about/src/view.js?\n}");
 
 /***/ }
 

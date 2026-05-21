@@ -137,7 +137,7 @@ button {
   grid-template-columns: auto minmax(0, 1fr) auto; /* Logo | Flexible space | Nav+CTA */
   grid-template-rows: 1fr;
 
-  width: min(77vw, 100%);
+  width: min(55vw, 75%);
   height: 100%;
   margin: 0 auto;
   gap: 12px;
@@ -159,7 +159,7 @@ button {
   grid-row: 1;
   align-self: center;
   justify-self: center;
-  width: clamp(100px, 14vw, 325px);
+  width: clamp(100px, 14vw, 150px);
   height: auto;
   cursor: pointer;
 }
@@ -334,7 +334,7 @@ button {
   flex-direction: row;
   align-items: center;
   font-family: var(--font-a);
-  font-size: clamp(2rem, 1.5vw, 2.15rem); /* Smaller h3 variant? */
+  font-size: clamp(1rem, 1.5vw, 1.88rem); /* Smaller h3 variant? */
   color: var(--dark-blue);
   font-weight: 800;
 }
@@ -354,7 +354,7 @@ button {
     "wght" 400,
     "GRAD" 0,
     "opsz" 24;
-  font-size: 0.975rem;
+  font-size: 0.775rem;
 }
 .menu-cta-call {
   display: flex;
@@ -362,7 +362,7 @@ button {
   text-align: right;
   justify-self: flex-end;
   font-family: var(--font-a);
-  font-size: clamp(1.05rem, 1.5vw, 1.15rem); /* Smaller h3 variant? */
+  font-size: clamp(0.888rem, 1.5vw, 0.999rem); /* Smaller h3 variant? */
   color: var(--dark-blue);
   font-weight: 700;
   line-height: 1.2;

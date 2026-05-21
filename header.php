@@ -5,14 +5,14 @@ Set this in functions.php -->
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover Charles R Morton Electric, LLC, your trusted electricians in Georgia. Experience efficient, quality service from seasoned experts. Contact us today!">
-    <meta name="google-site-verification" content="QJJ6UdRcBei6EMSVIfpAlqXq2_i8ZSrw4hy-WDYGCcI">
+    <meta name="description" content="Excitaprint is a leading Atlanta, GA provider of end-to-end marketing solutions including application development, commercial printing, promotional items & direct mail marketing that help businesses grow revenue.">
+    <meta name="google-site-verification" content="">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Top Electrician Services in Georgia | Charles R Morton Electric, LLC">
-    <meta name="twitter:description" content="Discover Charles R Morton Electric, LLC, your trusted electricians in Georgia. Experience efficient, quality service from seasoned experts. Contact us today!">
-    <meta name="twitter:image" content="https://crmortonelectric.com/api/og-image?title=Top+Electrician+Services+in+Georgia+%7C+Charles+R+Morton+Electric%2C+LLC&amp;company=Charles+R+Morton+Electric%2C+LLC&amp;color=%23000000&amp;description=Discover+Charles+R+Morton+Electric%2C+LLC%2C+your+trusted+electricians+in+Georgia.+Experience+efficient%2C+quality+service+from+seasoned+experts.+Contact+us+today%21&amp;logo=https%3A%2F%2Fik.imagekit.io%2F4wu305uo4%2Fimage_6865883a5c7cd75eb842859e.webp">
-    <link rel="icon" href="https://ik.imagekit.io/4wu305uo4/image_6865888d5c7cd75eb8445447.png">
-    <title>Top Electrician Services in Georgia | Charles R Morton Electric, LLC</title>
+    <meta name="twitter:title" content="Online & Offline Marketing | Excitaprint">
+    <meta name="twitter:description" content="Excitaprint is a leading Atlanta, GA provider of end-to-end marketing solutions including application development, commercial printing, promotional items & direct mail marketing that help businesses grow revenue.">
+    <meta name="twitter:image" content="">
+    <link rel="icon" href="">
+    <title>Online & Offline Marketing</title>
     <link rel="canonical" href="https://crmortonelectric.com">
     <?php wp_head(); ?>
 </head>
@@ -46,26 +46,23 @@ Set this in functions.php -->
 
                         <!-- home icon -->
                         <div class="main-nav-list"><span class="material-symbols-outlined menu-home-icon">home</span></div>
-                        <div class="main-nav-list">Panels & Power<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
-                        <div class="main-nav-list">Lighting Services<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
-                        <div class="main-nav-list">Wiring & Repairs<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
-                        <div class="main-nav-list">EV, Solar & Smart<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
-                        <div class="main-nav-list">Projects<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
-                        <div class="main-nav-list">Reviews<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
-                        <div class="main-nav-list">Contact</div>
+                        <div class="main-nav-list">Home<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
+                        <div class="main-nav-list">Blog<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
+                        <div class="main-nav-list">Products & Services<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
+                        <div class="main-nav-list">Contact</div> <!-- SCROLL JACK TO FORM & email & paragraph or small CTA -->
                     </nav>
                     <div class="menu-cta-wrapper">
                         <div class="menu-cta-top">
-                            <h3 class="menu-cta-call">Call or Text</h3>
-                            <a href="tel:6783580302" class="menu-cta-num">
+                            <h3 class="menu-cta-call">Text or Call</h3>
+                            <a href="tel:7703097992" class="menu-cta-num">
                                 <span class="material-symbols-outlined menu-cta-num-icon">call</span>
-                                <span class="menu-cta-num-text">678 358-0302</span>
+                                <span class="menu-cta-num-text">770 309-7992</span>
                             </a>
                         </div>
 
-                        <a class="menu-cta-button" href="https://portal.fieldpulse.com/charlesrmortonelectricllc/contact">
+                        <a class="menu-cta-button" href="">
                             <span class="material-symbols-outlined arrow-icon">arrow_forward</span>
-                            Book Now
+                            Request Quote
                         </a>
                     </div>
 

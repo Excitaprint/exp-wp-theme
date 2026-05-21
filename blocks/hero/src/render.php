@@ -9,15 +9,15 @@
 ?>
 
 <div <?php echo get_block_wrapper_attributes(['class' => 'wp-block-hero']); ?>>
-  <img class="hero-img" src="/wp-content/themes/crmorton-wp-theme/assets/images/IMG_6748.JPG" />
+  <img class="hero-img" src="/wp-content/themes/exp-wp-theme/assets/images/ovation-mobile-djs-business-card.png" />
   <div class="hero-card">
     <!-- Old React-only RichText `<RichText.Content tagName="h1" value={attributes.title} />` -->
     <h1>
       <?php echo esc_html($attributes['title'] ??
-        'Your Trusted Georgia Electricians.'); ?>
+        'Online & Offline Marketing'); ?>
     </h1>
     <p>
-      Reliable, on-time service equipped for your needs.
+      End-to-end marketing solutions including application development & commercial printing
     </p>
     <div class="hero-buttons-wrapper">
       <a href="tel:6783580302" class="wp-block-hero__button">

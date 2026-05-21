@@ -15,7 +15,7 @@
   \*********************************/
 () {
 
-eval("{//  document.addEventListener('DOMContentLoaded', () => {\n//     const buttons = document.querySelectorAll('.wp-block-hero__button');\n//     buttons.forEach(btn => {\n//         btn.addEventListener('click', () => {\n//         console.log('Hero Button Clicked');\n//         window.location.href = '';\n//         });\n//     });\n// });\n\n//# sourceURL=webpack://crmorton-wp-theme/./blocks/hero/src/view.js?\n}");
+eval("{//  document.addEventListener('DOMContentLoaded', () => {\n//     const buttons = document.querySelectorAll('.wp-block-hero__button');\n//     buttons.forEach(btn => {\n//         btn.addEventListener('click', () => {\n//         console.log('Hero Button Clicked');\n//         window.location.href = '';\n//         });\n//     });\n// });\n\n//# sourceURL=webpack://exp-wp-theme/./blocks/hero/src/view.js?\n}");
 
 /***/ }
 

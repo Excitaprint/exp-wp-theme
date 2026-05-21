@@ -11,15 +11,15 @@ registerBlockType("theme/hero", {
 
     return (
       <div {...blockProps}>
-        <img class="hero-img" src="/wp-content/themes/exp-wp-theme/assets/images/image-placeholder.png" />
+        <img class="hero-img" src="/wp-content/themes/exp-wp-theme/assets/images/ovation-mobile-djs-business-card.png" />
         <div className="hero-card">
           <RichText
             tagName="h1"
-            value="Your Trusted Georgia Electricians."
+            value="Online & Offline Marketing"
             onChange={(title) => setAttributes({ title })}
             placeholder="Enter headline here."
           />
-          <p>Reliable, on-time service equipped for your needs.</p>
+          <p>End-to-end marketing solutions including application development & commercial printing</p>
           <div className="hero-buttons-wrapper">
             <a href="tel:6783580302" className="wp-block-hero__button">
               <div className="icon-wrapper">
