@@ -31,3 +31,5 @@
 ## 5/22/26
 
 - Add: site-footer class to style.css & style it - done
+- Add(copy): "Online & offline marketing. One source."
+  > "Manage your online and offline marketing with one source"
