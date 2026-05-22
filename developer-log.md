@@ -27,3 +27,7 @@
                               
 - Add: setup Git remote pushing
 - Change: remove Google rating in Hero - done
+
+## 5/22/26
+
+- Add: site-footer class to style.css & style it - done
