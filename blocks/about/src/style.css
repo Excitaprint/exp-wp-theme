@@ -1,8 +1,10 @@
 /* ABOUT BLOCK CSS */
 .wp-block-about {
+  display: none;
+/* VISIBILITY OFF! */
   position: relative;
   background-color: var(--bright-white);
-  display: grid;
+  /* display: grid; */
   height: 70vh;
   gap: 2px;
   padding-bottom: 148px;

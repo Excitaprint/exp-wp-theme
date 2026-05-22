@@ -369,12 +369,15 @@ button {
 }
 
 /* FOOTER */
+.site-footer {
+  background-color: var(--bright-white);
+}
 .footer-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 5fr 1fr auto;
   /*height: auto;*/
-  background-color: var(--white-b);
+  background-color: var(--bright-white);
   gap: 12px;
   margin: auto;
   width: 65vw;
