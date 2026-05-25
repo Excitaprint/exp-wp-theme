@@ -306,6 +306,9 @@ img.hero-img {
   /* padding-top: 100px; */
   /* transform: scale(0.8); */
 }
+.hero-card {
+  transform: translateY(150px) !important;
+}
 }
 
 @media (min-width: 580px) and (max-width: 849px) {
