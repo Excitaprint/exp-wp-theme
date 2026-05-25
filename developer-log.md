@@ -33,3 +33,7 @@
 - Add: site-footer class to style.css & style it - done
 - Add(copy): "Online & offline marketing. One source."
   > "Manage your online and offline marketing with one source"
+
+## 5/25/26
+
+- GWCC is on WP! https://www.gwcc.com/wp-content/themes/gwcc2025/images/centennialparkdistrict.svg 

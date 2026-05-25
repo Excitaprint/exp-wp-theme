@@ -1,24 +1,25 @@
 <div <?php echo get_block_wrapper_attributes(['class' => 'wp-block-badges']); ?>>
     <div class="wp-block-badges-grid">
         <h3 class="badges-header-wrapper">
-            We're a team of professionals who are passionate about what we do.
+            Excitaprint is a leading Atlanta, GA supplier of commercial printing, software development, promotional items, direct marketing & direct mail solutions that help grow revenue.
         </h3>
         <div class="badges-wrapper">
-            <div class="google-wrapper">
-                <img src="/wp-content/themes/exp-wp-theme/assets/images/svgs/google-g-svg.svg">
+            <div class="gwcc-logo">
+                <img src="/wp-content/themes/exp-wp-theme/assets/images/GWCC_Logo_White-400.png">
             </div>
-            <div class="angi-wrapper">
-                <img src="/wp-content/themes/exp-wp-theme/assets/images/svgs/angi-svg.svg">
+            <div class="ga-lottery">
+                <img src="/wp-content/themes/exp-wp-theme/assets/images/ga-lottery.png">
             </div>
-            <div class="tack-wrapper">
-                <img src="/wp-content/themes/exp-wp-theme/assets/images/svgs/thumbtack-svg.svg">
+            <div class="spelman-logo">
+                <img src="/wp-content/themes/exp-wp-theme/assets/images/spelman-logo.png">
             </div>
-            <div class="bbb-wrapper">
-                <img src="/wp-content/themes/exp-wp-theme/assets/images/svgs/bbb-svg.svg">
+            <div class="pga-tour">
+                <img src="/wp-content/themes/exp-wp-theme/assets/images/pga-tour.png">
             </div>
-            <div class="amazon-wrapper">
-                <img src="/wp-content/themes/exp-wp-theme/assets/images/svgs/amazon-svg.svg">
+            <div class="hawks-logo">
+                <img src="/wp-content/themes/exp-wp-theme/assets/images/hawks-logo.png">
             </div>
+
         </div>
     </div>
 </div>
