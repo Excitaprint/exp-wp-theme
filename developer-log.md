@@ -43,3 +43,7 @@
 - Build slider https://www.youtube.com/watch?v=McPdzhLRzCg
   > Ultimate Security, see portable HD & old Desktop files for more
   > Consolidate all EXP files
+
+## 5/27/26
+
+- EXP redo, add Terms, click yes to opt in to terms - agency; make card with print company, files 
