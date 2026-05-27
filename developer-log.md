@@ -50,3 +50,5 @@
 - **MAJOR BUG SECOND TIME**: site wasn't loading, exp theme is clone of crme theme
     > Had leftover WP Local settings in wp-config.php, had to change:
     > ```// FORCE FIX FOR LOCALWP define( 'WP_HOME', 'http://localhost:10004/' ); define( 'WP_SITEURL', 'http://localhost:10004/' );```
+    > TRY THIS:
+    ```define( 'WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] ); define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] );```
