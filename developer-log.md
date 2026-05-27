@@ -40,6 +40,6 @@
 
 ## 5/26/26
 
-- Build slider
+- Build slider https://www.youtube.com/watch?v=McPdzhLRzCg
   > Ultimate Security, see portable HD & old Desktop files for more
   > Consolidate all EXP files
