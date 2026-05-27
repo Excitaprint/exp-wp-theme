@@ -46,4 +46,7 @@
 
 ## 5/27/26
 
-- EXP redo, add Terms, click yes to opt in to terms - agency; make card with print company, files 
+- EXP redo, add Terms, click yes to opt in to terms - agency; make card with print company, files
+- **MAJOR BUG SECOND TIME**: site wasn't loading, exp theme is clone of crme theme
+    > Had leftover WP Local settings in wp-config.php, had to change:
+    > ```// FORCE FIX FOR LOCALWP define( 'WP_HOME', 'http://localhost:10004/' ); define( 'WP_SITEURL', 'http://localhost:10004/' );```
