@@ -21,8 +21,8 @@
 - Cloned CRME theme
   > Hero - make it a slider, About & badges
   > Add logo
-  > Add grid rows, move card up no screen
   > Smaller menu text, diff secondary text
+  > Add grid rows, move card up no screen
   > Swap Global Vars for EXP colors
                               
 - Add: setup Git remote pushing
@@ -37,3 +37,9 @@
 ## 5/25/26
 
 - GWCC is on WP! https://www.gwcc.com/wp-content/themes/gwcc2025/images/centennialparkdistrict.svg 
+
+## 5/26/26
+
+- Build slider
+  > Ultimate Security, see portable HD & old Desktop files for more
+  > Consolidate all EXP files
