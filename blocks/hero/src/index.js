@@ -21,7 +21,7 @@ registerBlockType("theme/hero", {
           />
           <p>End-to-end marketing solutions including application development & commercial printing</p>
           <div className="hero-buttons-wrapper">
-            <a href="tel:6783580302" className="wp-block-hero__button">
+            <a href="tel:7703097992" className="wp-block-hero__button">
               <div className="icon-wrapper">
                 <span className="material-symbols-outlined phone-icon">
                   call
@@ -30,7 +30,7 @@ registerBlockType("theme/hero", {
               Call Us
             </a>
             <a
-              href="https://portal.fieldpulse.com/charlesrmortonelectricllc/contact"
+              href="mailto:how@excitaprint.com"
               className="wp-block-hero__button"
             >
               <div className="icon-wrapper">
@@ -42,7 +42,7 @@ registerBlockType("theme/hero", {
             </a>
           </div>
         </div>
-        <a href="https://search.google.com/local/reviews?placeid=ChIJv88mrLms9YgRadoepk1fU1M" className="google-rating-wrapper">
+        <a href="" className="google-rating-wrapper">
           <GoogleGIcon className="google-logo" />
           <div className="star-row">
             <span className="material-symbols-outlined star-icon">

@@ -52,3 +52,16 @@
     > ```// FORCE FIX FOR LOCALWP define( 'WP_HOME', 'http://localhost:10004/' ); define( 'WP_SITEURL', 'http://localhost:10004/' );```
     > TRY THIS:
     ```define( 'WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] ); define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] );```
+
+## 6/29/26
+
+- *VPS*: Bought IONOS VPS, DNS fwd GoDaddy to VPS
+  > Add ATL Alert via subdomain
+  > Add CRME via subdomain - excitaprint.com/crme (DONE)
+  > Split About Us blurb into icons to explain prod/svcs
+  > Add DEMO REELS block
+
+- Later
+  > Add icon gen
+  > Add photo section
+  > 

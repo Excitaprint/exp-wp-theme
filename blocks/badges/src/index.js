@@ -14,7 +14,8 @@ registerBlockType("theme/badges", {
       <div {...blockProps}>
         <div className="wp-block-badges-grid">
           <h3 className="badges-header-wrapper">
-            Excitaprint is a leading Atlanta, GA supplier of commercial printing, software development, promotional items, direct marketing & direct mail solutions that help grow revenue.
+	    Established in 2014, Excitaprint is a leading Atlanta, GA supplier of software development, digital design, commercial printing, promotional items, direct marketing & direct mail solutions that help businesses like yours grow revenue.
+
           </h3>
           <div className="badges-wrapper">
             <div className="google-wrapper">

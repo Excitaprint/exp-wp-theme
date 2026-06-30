@@ -192,7 +192,7 @@ button {
   justify-content: flex-end;
   font-family: var(--font-b);
   font-size: clamp(0.925rem, 1.02vw, 0.975rem);
-  font-weight: 600;
+  font-weight: 700;
   color: var(--font-smoke);
   line-height: 1; /* Tightens text for precise baseline alignment */
 }
@@ -201,7 +201,7 @@ button {
   display: inline-flex;
   font-variation-settings:
     "FILL" 0,
-    "wght" 600,
+    "wght" 700,
     "GRAD" 0,
     "opsz" 24;
   align-items: center;
@@ -209,7 +209,7 @@ button {
   vertical-align: middle;
   margin-right: 8px;
   flex-shrink: 0;
-  font-size: 0.975rem;
+  font-size: 0.875rem;
   line-height: 0;
   transform: translateY(0.5px);
   padding-left: 2px;
@@ -219,7 +219,7 @@ button {
   display: inline-flex;
   font-variation-settings:
     "FILL" 0,
-    "wght" 400,
+    "wght" 700,
     "GRAD" 0,
     "opsz" 24;
   align-items: center;
@@ -509,7 +509,7 @@ button {
 /* FOOTER NAV */
 
 .footer-nav-wrapper {
-  display: contents;
+  display: none;
 }
 
 .footer-nav-header-wrapper {
@@ -759,8 +759,9 @@ button {
   /* FOOTER NAV */
 
   .footer-nav-wrapper {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: none;
   }
 
   .footer-nav-header-wrapper {

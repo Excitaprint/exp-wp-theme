@@ -20,14 +20,14 @@
       End-to-end marketing solutions including application development & commercial printing
     </p>
     <div class="hero-buttons-wrapper">
-      <a href="tel:6783580302" class="wp-block-hero__button">
+      <a href="tel:7703097992" class="wp-block-hero__button">
         <div class="icon-wrapper">
           <span class="material-symbols-outlined phone-icon">call</span>
         </div>
         Call Us
       </a>
       <a
-        href="https://portal.fieldpulse.com/charlesrmortonelectricllc/contact"
+	href="mailto:how@excitaprint.com"
         class="wp-block-hero__button">
         <div class="icon-wrapper"> 
           <span class="material-symbols-outlined arrow-icon">
@@ -38,7 +38,7 @@
       </a>
     </div>
   </div>
-  <a href="https://search.google.com/local/reviews?placeid=ChIJv88mrLms9YgRadoepk1fU1M" class="google-rating-wrapper">
+  <a href="" class="google-rating-wrapper">
     <!-- old React save.js `<GoogleGIcon class="google-logo" />` -->
     <img class="google-logo" src="/wp-content/themes/crmorton-wp-theme/assets/images/svgs/google-g-svg.svg">
     <div class="star-row">

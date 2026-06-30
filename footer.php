@@ -4,11 +4,11 @@
             <div class="footer-logo"></div>
             <div class="footer-header__button-wrapper">
 
-                <a href="https://portal.fieldpulse.com/charlesrmortonelectricllc/contact" class="footer-header__button_l">
+                <a href="https://www.excitaprint.com/" class="footer-header__button_l">
                     <span class="material-symbols-outlined arrow-icon">arrow_forward</span>
                     Request Quote</a>
 
-                <a href="https://portal.fieldpulse.com/charlesrmortonelectricllc/contact" class="footer-header__button_r">
+                <a href="tel:7703097992" class="footer-header__button_r">
                     <span class="material-symbols-outlined arrow-icon">arrow_forward</span>
                     770 309-7992</a>
             </div>

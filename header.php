@@ -9,11 +9,15 @@ Set this in functions.php -->
     <meta name="google-site-verification" content="">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Online & Offline Marketing | Excitaprint">
-    <meta name="twitter:description" content="Excitaprint is a leading Atlanta, GA provider of end-to-end marketing solutions including application development, commercial printing, promotional items & direct mail marketing that help businesses grow revenue.">
-    <meta name="twitter:image" content="">
+    <meta name="twitter:description" content="Excitaprint is a leading Atlanta, GA provider of end-to-end marketing solutions focused on software development, digital design, commercial printing, promotional items & direct mail marketing helping businesses grow revenue.">
+    <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/exp-twt-card.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/exp-twt-card.png">
+<meta name="twitter:site" content="@excitaprint">
+<meta property="og:image:width" content="1634">
+<meta property="og:image:height" content="920">
     <link rel="icon" href="">
     <title>Online & Offline Marketing</title>
-    <link rel="canonical" href="https://crmortonelectric.com">
+    <link rel="canonical" href="https://excitaprint.com/">
     <?php wp_head(); ?>
 </head>
 
@@ -60,7 +64,7 @@ Set this in functions.php -->
                             </a>
                         </div>
 
-                        <a class="menu-cta-button" href="">
+                        <a class="menu-cta-button" href="mailto:how@excitaprint.com">
                             <span class="material-symbols-outlined arrow-icon">arrow_forward</span>
                             Request Quote
                         </a>
@@ -75,5 +79,14 @@ Set this in functions.php -->
                 const footerLogo = document.querySelector('.footer-logo');
                 footerLogo.innerHTML = window.themeLogo;
             });
-        </script>
+	</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J54EF8KK5Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J54EF8KK5Z');
+</script>
     </header>
