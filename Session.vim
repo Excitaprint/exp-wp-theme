@@ -11,7 +11,7 @@ endif
 let s:shortmess_save = &shortmess
 set shortmess+=aoO
 badd +1 /var/www/html/wp-content/themes/exp-wp-theme
-badd +33 developer-log.md
+badd +67 developer-log.md
 badd +11 footer.php
 badd +30 blocks/hero/src/render.php
 badd +62 header.php
@@ -41,11 +41,11 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe '1resize ' . ((&lines * 29 + 30) / 61)
-exe '2resize ' . ((&lines * 29 + 30) / 61)
-exe 'vert 2resize ' . ((&columns * 62 + 62) / 124)
-exe '3resize ' . ((&lines * 29 + 30) / 61)
-exe 'vert 3resize ' . ((&columns * 61 + 62) / 124)
+exe '1resize ' . ((&lines * 27 + 28) / 57)
+exe '2resize ' . ((&lines * 27 + 28) / 57)
+exe 'vert 2resize ' . ((&columns * 57 + 57) / 115)
+exe '3resize ' . ((&lines * 27 + 28) / 57)
+exe 'vert 3resize ' . ((&columns * 57 + 57) / 115)
 argglobal
 setlocal foldmethod=manual
 setlocal foldexpr=0
@@ -57,7 +57,7 @@ setlocal foldnestmax=20
 setlocal foldenable
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 33 - ((14 * winheight(0) + 14) / 29)
+let s:l = 33 - ((13 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
@@ -79,7 +79,6 @@ lcd /var/www/html/wp-content/themes/exp-wp-theme
 wincmd w
 argglobal
 enew
-balt /var/www/html/wp-content/themes/exp-wp-theme/global-vars.css
 setlocal foldmethod=manual
 setlocal foldexpr=0
 setlocal foldmarker={{{,}}}
@@ -90,12 +89,12 @@ setlocal foldnestmax=20
 setlocal foldenable
 lcd /var/www/html/wp-content/themes/exp-wp-theme
 wincmd w
-2wincmd w
-exe '1resize ' . ((&lines * 29 + 30) / 61)
-exe '2resize ' . ((&lines * 29 + 30) / 61)
-exe 'vert 2resize ' . ((&columns * 62 + 62) / 124)
-exe '3resize ' . ((&lines * 29 + 30) / 61)
-exe 'vert 3resize ' . ((&columns * 61 + 62) / 124)
+3wincmd w
+exe '1resize ' . ((&lines * 27 + 28) / 57)
+exe '2resize ' . ((&lines * 27 + 28) / 57)
+exe 'vert 2resize ' . ((&columns * 57 + 57) / 115)
+exe '3resize ' . ((&lines * 27 + 28) / 57)
+exe 'vert 3resize ' . ((&columns * 57 + 57) / 115)
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
