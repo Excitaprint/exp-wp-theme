@@ -17,6 +17,7 @@ badd +30 blocks/hero/src/render.php
 badd +62 header.php
 badd +33 blocks/hero/src/index.js
 badd +32 global-vars.css
+badd +0 blocks/hero/src/style.css
 argglobal
 %argdel
 $argadd /var/www/html/wp-content/themes/exp-wp-theme
@@ -27,6 +28,10 @@ set splitbelow splitright
 wincmd _ | wincmd |
 split
 1wincmd k
+wincmd _ | wincmd |
+vsplit
+1wincmd h
+wincmd w
 wincmd w
 wincmd _ | wincmd |
 vsplit
@@ -42,10 +47,13 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 exe '1resize ' . ((&lines * 27 + 28) / 57)
+exe 'vert 1resize ' . ((&columns * 57 + 57) / 114)
 exe '2resize ' . ((&lines * 27 + 28) / 57)
-exe 'vert 2resize ' . ((&columns * 57 + 57) / 115)
+exe 'vert 2resize ' . ((&columns * 56 + 57) / 114)
 exe '3resize ' . ((&lines * 27 + 28) / 57)
-exe 'vert 3resize ' . ((&columns * 57 + 57) / 115)
+exe 'vert 3resize ' . ((&columns * 57 + 57) / 114)
+exe '4resize ' . ((&lines * 27 + 28) / 57)
+exe 'vert 4resize ' . ((&columns * 56 + 57) / 114)
 argglobal
 setlocal foldmethod=manual
 setlocal foldexpr=0
@@ -57,7 +65,53 @@ setlocal foldnestmax=20
 setlocal foldenable
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 33 - ((13 * winheight(0) + 13) / 27)
+let s:l = 67 - ((19 * winheight(0) + 13) / 27)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 67
+normal! 04|
+lcd /var/www/html/wp-content/themes/exp-wp-theme
+wincmd w
+argglobal
+if bufexists(fnamemodify("/var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/style.css", ":p")) | buffer /var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/style.css | else | edit /var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/style.css | endif
+if &buftype ==# 'terminal'
+  silent file /var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/style.css
+endif
+setlocal foldmethod=manual
+setlocal foldexpr=0
+setlocal foldmarker={{{,}}}
+setlocal foldignore=#
+setlocal foldlevel=0
+setlocal foldminlines=1
+setlocal foldnestmax=20
+setlocal foldenable
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 1 - ((0 * winheight(0) + 13) / 27)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 1
+normal! 0
+lcd /var/www/html/wp-content/themes/exp-wp-theme
+wincmd w
+argglobal
+if bufexists(fnamemodify("/var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/index.js", ":p")) | buffer /var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/index.js | else | edit /var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/index.js | endif
+if &buftype ==# 'terminal'
+  silent file /var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/index.js
+endif
+setlocal foldmethod=manual
+setlocal foldexpr=0
+setlocal foldmarker={{{,}}}
+setlocal foldignore=#
+setlocal foldlevel=0
+setlocal foldminlines=1
+setlocal foldnestmax=20
+setlocal foldenable
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 33 - ((11 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
@@ -66,7 +120,10 @@ normal! 0
 lcd /var/www/html/wp-content/themes/exp-wp-theme
 wincmd w
 argglobal
-enew
+if bufexists(fnamemodify("/var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/render.php", ":p")) | buffer /var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/render.php | else | edit /var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/render.php | endif
+if &buftype ==# 'terminal'
+  silent file /var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/render.php
+endif
 setlocal foldmethod=manual
 setlocal foldexpr=0
 setlocal foldmarker={{{,}}}
@@ -75,26 +132,25 @@ setlocal foldlevel=0
 setlocal foldminlines=1
 setlocal foldnestmax=20
 setlocal foldenable
+silent! normal! zE
+let &fdl = &fdl
+let s:l = 30 - ((11 * winheight(0) + 13) / 27)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 30
+normal! 0
 lcd /var/www/html/wp-content/themes/exp-wp-theme
 wincmd w
-argglobal
-enew
-setlocal foldmethod=manual
-setlocal foldexpr=0
-setlocal foldmarker={{{,}}}
-setlocal foldignore=#
-setlocal foldlevel=0
-setlocal foldminlines=1
-setlocal foldnestmax=20
-setlocal foldenable
-lcd /var/www/html/wp-content/themes/exp-wp-theme
-wincmd w
-3wincmd w
+2wincmd w
 exe '1resize ' . ((&lines * 27 + 28) / 57)
+exe 'vert 1resize ' . ((&columns * 57 + 57) / 114)
 exe '2resize ' . ((&lines * 27 + 28) / 57)
-exe 'vert 2resize ' . ((&columns * 57 + 57) / 115)
+exe 'vert 2resize ' . ((&columns * 56 + 57) / 114)
 exe '3resize ' . ((&lines * 27 + 28) / 57)
-exe 'vert 3resize ' . ((&columns * 57 + 57) / 115)
+exe 'vert 3resize ' . ((&columns * 57 + 57) / 114)
+exe '4resize ' . ((&lines * 27 + 28) / 57)
+exe 'vert 4resize ' . ((&columns * 56 + 57) / 114)
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
