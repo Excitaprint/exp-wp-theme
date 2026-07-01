@@ -64,4 +64,9 @@
 - Later
   > Add icon gen
   > Add photo section
-  > 
+
+## 6/30/26
+
+- Fix: Missing Properties (OG/header)
+  > The following required properties are missing: 
+  > og:url, og:type og:title, og:description, fb:app_id

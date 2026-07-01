@@ -10,8 +10,8 @@ Set this in functions.php -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Online & Offline Marketing | Excitaprint">
     <meta name="twitter:description" content="Excitaprint is a leading Atlanta, GA provider of end-to-end marketing solutions focused on software development, digital design, commercial printing, promotional items & direct mail marketing helping businesses grow revenue.">
-    <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/exp-twt-card.png">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/exp-twt-card.png">
+    <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/exp-twt-card-LOGO.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/exp-twt-card-LOGO.png">
 <meta name="twitter:site" content="@excitaprint">
 <meta property="og:image:width" content="1634">
 <meta property="og:image:height" content="920">
@@ -50,10 +50,10 @@ Set this in functions.php -->
 
                         <!-- home icon -->
                         <div class="main-nav-list"><span class="material-symbols-outlined menu-home-icon">home</span></div>
-                        <div class="main-nav-list">Home<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
-                        <div class="main-nav-list">Blog<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
+                        <a class="main-nav-list" href="https://excitaprint.com/">Home<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></a>
+                       <div class="main-nav-list">Blog<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
                         <div class="main-nav-list">Products & Services<span class="material-symbols-outlined nav-key-down">keyboard_arrow_down</span></div>
-                        <div class="main-nav-list">Contact</div> <!-- SCROLL JACK TO FORM & email & paragraph or small CTA -->
+                        <a class="main-nav-list" href="mailto:how@excitaprint.com">Contact</a> <!-- SCROLL JACK TO FORM & email & paragraph or small CTA -->
                     </nav>
                     <div class="menu-cta-wrapper">
                         <div class="menu-cta-top">
