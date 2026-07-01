@@ -1,7 +1,7 @@
 /*
 Theme Name: CRMElectric-EXP
 Author: Jamie Cooper
-Email: jamie@excitaprint.com
+mail: jamie@excitaprint.com
 Version: 1.0
 */
 html {
@@ -26,7 +26,7 @@ a {
 iframe {
   pointer-events: none;
 }
-
+sd
 ul,
 ol,
 li {
@@ -488,7 +488,7 @@ button {
 }
 
 .footer-header__button_r:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--accent-a);
   color: var(--white-a);
   transform: translateY(-2px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
