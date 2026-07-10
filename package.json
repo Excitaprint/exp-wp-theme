@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@wordpress/scripts": "^31.4.0",
+    "@wordpress/scripts": "^31.8.0",
     "browser-sync": "^2.x.x",
     "browser-sync-webpack-plugin": "^2.x.x"
   }

@@ -11,7 +11,7 @@ registerBlockType("theme/hero", {
 
     return (
       <div {...blockProps}>
-        <img class="hero-img" src="/wp-content/themes/exp-wp-theme/assets/images/ovation-mobile-djs-business-card.png" />
+        <img class="hero-img" src="/wp-content/themes/exp-wp-theme/assets/images/exp-home-hero-b.png">
         <div className="hero-card">
           <RichText
             tagName="h1"

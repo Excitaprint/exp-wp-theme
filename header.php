@@ -4,7 +4,7 @@
 Set this in functions.php -->
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="Excitaprint is a leading Atlanta, GA provider of end-to-end marketing solutions including application development, commercial printing, promotional items & direct mail marketing that help businesses grow revenue.">
     <meta name="google-site-verification" content="">
     <meta name="twitter:card" content="summary_large_image">

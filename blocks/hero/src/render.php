@@ -9,7 +9,7 @@
 ?>
 
 <div <?php echo get_block_wrapper_attributes(['class' => 'wp-block-hero']); ?>>
-  <img class="hero-img" src="/wp-content/themes/exp-wp-theme/assets/images/ovation-mobile-djs-business-card.png" />
+  <img class="hero-img" src="/wp-content/themes/exp-wp-theme/assets/images/exp-home-hero-a.png"/>
   <div class="hero-card">
     <!-- Old React-only RichText `<RichText.Content tagName="h1" value={attributes.title} />` -->
     <h1>
