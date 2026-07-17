@@ -9,7 +9,7 @@
 ?>
 
 <div <?php echo get_block_wrapper_attributes(['class' => 'wp-block-hero']); ?>>
-  <img class="hero-img" src="/wp-content/themes/exp-wp-theme/assets/images/exp-home-hero-a.png"/>
+  <img class="hero-img" />
   <div class="hero-card">
     <!-- Old React-only RichText `<RichText.Content tagName="h1" value={attributes.title} />` -->
     <h1>
@@ -50,4 +50,21 @@
     </div>
     <p>4.9</p>
 </a>
+<script>
+(function() {
+	 const heroBlock = document.querySelector
+	 ('.wp-block-hero');
+	const heroIMG = heroBlock.querySelector('.hero-img');
+if (heroIMG) {
+const isImageB = Math.random() < 0.5;
+if (isImageB) {
+    heroIMG.src = '/wp-content/themes/exp-wp-theme/assets/images/exp-home-hero-b.png';
+    heroIMG.classList.add('is-hero-b');
+  } else {
+    heroIMG.src = '/wp-content/themes/exp-wp-theme/assets/images/exp-home-hero-a.png';
+    heroIMG.classList.remove('is-hero-b');
+    }
+  }
+})();
+</script>
 </div>
