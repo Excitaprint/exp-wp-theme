@@ -28,6 +28,7 @@ img.hero-img {
   /* or 80, 80 */
   z-index: 6;
   padding-top: 150px;
+  transform: scale(0.8);
 }
 
 .hero-img {
@@ -300,7 +301,7 @@ img.is-hero-b {
   width: 115% !important;
   height: 115% !important;
   padding-top: 0;
-  transform: translateX(-50%) rotate(180deg)!important;
+  transform: translateX(-50%) rotate(-180deg)!important;
   object-position: 50% 20%;
   left: 50%;
   /* right: auto; */
