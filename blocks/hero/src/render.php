@@ -1,13 +1,3 @@
-<?php
-
-/**
- * 
- * WP Dev Docs example - delete comment & 1st set of PHP tags
- * get block wrap att is same as useBlockProps
- * 
- */
-?>
-
 <div <?php echo get_block_wrapper_attributes(['class' => 'wp-block-hero']); ?>>
   <img class="hero-img" />
   <div class="hero-card">

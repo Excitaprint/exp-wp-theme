@@ -16,9 +16,10 @@ badd +27 term:///var/www/html/wp-content/themes/exp-wp-theme//361577:/bin/bash
 badd +153 health://
 badd +1 developer-log.md
 badd +1 blocks/hero/src/style.css
-badd +1 blocks/hero/src/render.php
+badd +22 blocks/hero/src/render.php
 badd +4 blocks/hero/src/index.js
 badd +1 term:///var/www/html/wp-content/themes/exp-wp-theme//361805:/bin/bash
+badd +12 blocks/services-copy/src/render.php
 argglobal
 %argdel
 $argadd /var/www/html/wp-content/themes/exp-wp-theme
@@ -51,15 +52,15 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 35 + 134) / 269)
-exe '2resize ' . ((&lines * 26 + 30) / 61)
-exe 'vert 2resize ' . ((&columns * 52 + 134) / 269)
-exe '3resize ' . ((&lines * 26 + 30) / 61)
-exe 'vert 3resize ' . ((&columns * 180 + 134) / 269)
-exe '4resize ' . ((&lines * 32 + 30) / 61)
-exe 'vert 4resize ' . ((&columns * 52 + 134) / 269)
-exe '5resize ' . ((&lines * 32 + 30) / 61)
-exe 'vert 5resize ' . ((&columns * 180 + 134) / 269)
+exe 'vert 1resize ' . ((&columns * 31 + 85) / 170)
+exe '2resize ' . ((&lines * 27 + 29) / 58)
+exe 'vert 2resize ' . ((&columns * 47 + 85) / 170)
+exe '3resize ' . ((&lines * 27 + 29) / 58)
+exe 'vert 3resize ' . ((&columns * 90 + 85) / 170)
+exe '4resize ' . ((&lines * 28 + 29) / 58)
+exe 'vert 4resize ' . ((&columns * 47 + 85) / 170)
+exe '5resize ' . ((&lines * 28 + 29) / 58)
+exe 'vert 5resize ' . ((&columns * 90 + 85) / 170)
 argglobal
 if bufexists(fnamemodify("term:///var/www/html/wp-content/themes/exp-wp-theme//361805:/bin/bash", ":p")) | buffer term:///var/www/html/wp-content/themes/exp-wp-theme//361805:/bin/bash | else | edit term:///var/www/html/wp-content/themes/exp-wp-theme//361805:/bin/bash | endif
 if &buftype ==# 'terminal'
@@ -74,12 +75,12 @@ setlocal foldlevel=0
 setlocal foldminlines=1
 setlocal foldnestmax=20
 setlocal foldenable
-let s:l = 1535 - ((58 * winheight(0) + 29) / 59)
+let s:l = 56 - ((55 * winheight(0) + 28) / 56)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 1535
-normal! 023|
+keepjumps 56
+normal! 0
 lcd /var/www/html/wp-content/themes/exp-wp-theme
 wincmd w
 argglobal
@@ -93,11 +94,11 @@ setlocal foldnestmax=20
 setlocal foldenable
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 41 - ((8 * winheight(0) + 13) / 26)
+let s:l = 72 - ((7 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 41
+keepjumps 72
 normal! 0
 lcd /var/www/html/wp-content/themes/exp-wp-theme
 wincmd w
@@ -117,12 +118,12 @@ setlocal foldnestmax=20
 setlocal foldenable
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 14 - ((13 * winheight(0) + 13) / 26)
+let s:l = 20 - ((0 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 14
-normal! 0107|
+keepjumps 20
+normal! 046|
 lcd /var/www/html/wp-content/themes/exp-wp-theme
 wincmd w
 argglobal
@@ -141,7 +142,7 @@ setlocal foldnestmax=20
 setlocal foldenable
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 52 - ((13 * winheight(0) + 16) / 32)
+let s:l = 52 - ((0 * winheight(0) + 14) / 28)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
@@ -154,7 +155,6 @@ if bufexists(fnamemodify("/var/www/html/wp-content/themes/exp-wp-theme/blocks/he
 if &buftype ==# 'terminal'
   silent file /var/www/html/wp-content/themes/exp-wp-theme/blocks/hero/src/render.php
 endif
-balt /var/www/html/wp-content/themes/exp-wp-theme/developer-log.md
 setlocal foldmethod=manual
 setlocal foldexpr=0
 setlocal foldmarker={{{,}}}
@@ -165,24 +165,24 @@ setlocal foldnestmax=20
 setlocal foldenable
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 7 - ((0 * winheight(0) + 16) / 32)
+let s:l = 1 - ((0 * winheight(0) + 14) / 28)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 7
+keepjumps 1
 normal! 0
 lcd /var/www/html/wp-content/themes/exp-wp-theme
 wincmd w
-4wincmd w
-exe 'vert 1resize ' . ((&columns * 35 + 134) / 269)
-exe '2resize ' . ((&lines * 26 + 30) / 61)
-exe 'vert 2resize ' . ((&columns * 52 + 134) / 269)
-exe '3resize ' . ((&lines * 26 + 30) / 61)
-exe 'vert 3resize ' . ((&columns * 180 + 134) / 269)
-exe '4resize ' . ((&lines * 32 + 30) / 61)
-exe 'vert 4resize ' . ((&columns * 52 + 134) / 269)
-exe '5resize ' . ((&lines * 32 + 30) / 61)
-exe 'vert 5resize ' . ((&columns * 180 + 134) / 269)
+5wincmd w
+exe 'vert 1resize ' . ((&columns * 31 + 85) / 170)
+exe '2resize ' . ((&lines * 27 + 29) / 58)
+exe 'vert 2resize ' . ((&columns * 47 + 85) / 170)
+exe '3resize ' . ((&lines * 27 + 29) / 58)
+exe 'vert 3resize ' . ((&columns * 90 + 85) / 170)
+exe '4resize ' . ((&lines * 28 + 29) / 58)
+exe 'vert 4resize ' . ((&columns * 47 + 85) / 170)
+exe '5resize ' . ((&lines * 28 + 29) / 58)
+exe 'vert 5resize ' . ((&columns * 90 + 85) / 170)
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

@@ -10,8 +10,8 @@ Set this in functions.php -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Online & Offline Marketing | Excitaprint">
     <meta name="twitter:description" content="Excitaprint is a leading Atlanta, GA provider of end-to-end marketing solutions focused on software development, digital design, commercial printing, promotional items & direct mail marketing helping businesses grow revenue.">
-    <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/exp-twt-card-LOGO.png">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/exp-twt-card-LOGO.png">
+    <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/exp-twt-card-4.JPG">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/images/exp-twt-card-4.JPG">
 <meta name="twitter:site" content="@excitaprint">
 <meta property="og:image:width" content="1634">
 <meta property="og:image:height" content="920">
