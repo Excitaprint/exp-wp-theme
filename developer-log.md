@@ -70,3 +70,8 @@
 - Fix: Missing Properties (OG/header)
   > The following required properties are missing: 
   > og:url, og:type og:title, og:description, fb:app_id
+
+## 7/22/26
+
+- Add: Made in America in copyright - done
+- BUG: Hero Image too high, needs to show 'under' the card

@@ -135,7 +135,8 @@
             </div>
         </div>
     </div>
-    <div class="copyright">© 2026 Excitaprint, LLC. All rights reserved.</div>
+    <div class="copyright">© 2026 Excitaprint, LLC. All rights reserved.
+	<br>Custom products made in America.</div>
     </div>
 
     <script>

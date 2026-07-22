@@ -614,7 +614,7 @@ button {
   font-size: clamp(0.805rem, 1.02vw, 0.845rem);
   color: var(--dark-blue);
   font-weight: 300;
-  line-height: 0;
+  line-height: 1.2;
   padding: 14px 0 0 12px;
   word-spacing: 0.975px;
   letter-spacing: -0.001px;
@@ -861,7 +861,7 @@ button {
   }
   .copyright {
     font-size: clamp(0.505rem, 4vw, 0.745rem);
-    padding: 24px 12px 24px 12px;
+    padding: 6px;
   }
   /* MENU HACK USING GRID-TEMPLATE-AREAS */
 

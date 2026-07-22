@@ -21,7 +21,7 @@
 img.hero-img {
   position: absolute;
   inset: 0;
-  width: 110%;
+  width: 105%;
   /* height: 115%; */
   object-fit: cover;
   object-position: 50% 20%;
