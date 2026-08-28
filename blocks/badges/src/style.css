@@ -87,7 +87,7 @@
 /* RESPONSIVE MEDIA QUERIES */
 /* MOBILE */
 
-@media (max-width: 430px) {
+@media (max-width: 450px) {
   /* BADGES BLOCK CSS */
   .wp-block-badges {
     height: auto;

@@ -644,7 +644,7 @@ button {
 /* MOBILE */
 /* MENU */
 
-@media (max-width: 430px) {
+@media (max-width: 450px) {
   /* menu-wrapper hack for menu not 100% fixed on Dev Tools? */
   .menu-wrapper {
     position: fixed !important;
