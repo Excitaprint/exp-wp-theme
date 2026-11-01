@@ -1,7 +1,7 @@
 <?php
 
 /**
- * CRMElectric-EXP Global Theme Functions
+ * EXP Global Theme Functions
  */
 
 // ** HOT-RELOAD DEV SERVER SETTINGS. CHANGE FOR DEPLOYMENT? THINK SO!
@@ -12,7 +12,7 @@ add_action('init', function () {
 
     // Register Navigation Menus
     register_nav_menus(array(
-        'primary-menu' => esc_html__('Primary Menu', 'crmorton-wp-theme'),
+        'primary-menu' => esc_html__('Primary Menu', 'exp-wp-theme'),
     ));
 
     // Register Blocks in init

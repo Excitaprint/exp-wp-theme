@@ -1,5 +1,5 @@
 /*
-Theme Name: CRMElectric-EXP
+Theme Name: EXP-wp-theme 
 Author: Jamie Cooper
 mail: jamie@excitaprint.com
 Version: 1.0
@@ -625,6 +625,14 @@ button {
   text-align: center;
 }
 
+/* MENU OFF UNTIL I ADD BLOG, PRODUCTS/SVCS, CONTACT */
+
+  .main-nav-list, .list-wrapper {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
 /* TABLET || LARGER THAN BASE MOBILE RESPONSIVENESS */
 
 /* @media (max-width: 1700px) {
@@ -902,7 +910,7 @@ button {
   } 
   .footer__more {
   }*/
-}
+
 /* LAPTOP */
 @media (min-width: 700px) and (max-width: 1700px) {
   .menu-wrapper {

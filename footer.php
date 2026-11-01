@@ -4,7 +4,7 @@
             <div class="footer-logo"></div>
             <div class="footer-header__button-wrapper">
 
-                <a href="https://www.excitaprint.com/" class="footer-header__button_l">
+                <a href="mailto:how@excitaprint.com" class="footer-header__button_l">
                     <span class="material-symbols-outlined arrow-icon">arrow_forward</span>
                     Request Quote</a>
 
